@@ -12,13 +12,13 @@ import Header from "./components/Header";
 // console.log(marketingMount);
 
 // Generate class name
-const createGenerateClassName = createGenerateClassName({
+const generateClassName = createGenerateClassName({
   productionPrefix: "co",
 });
 
 export default () => {
   return (
-    <StylesProvider generateClassName={createGenerateClassName}>
+    <StylesProvider generateClassName={generateClassName}>
       <BrowserRouter>
         <div>
           <Header />
