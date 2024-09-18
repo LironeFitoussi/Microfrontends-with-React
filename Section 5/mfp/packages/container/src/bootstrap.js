@@ -1,1 +1,7 @@
-console.log("Section 4: Marketing");
+import React from "react";
+import ReactDOM from "react-dom";
+
+// Component Import
+import App from "./App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
